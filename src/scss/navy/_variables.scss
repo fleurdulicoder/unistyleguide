@@ -1,57 +1,57 @@
 // THEME & BRAND
 // @COLOR THEME CONFIGURATION
 // configuring application variables
-$theme: "light";
-$theme-fullwidth: 80%;
+$theme: "dark";
+$theme-fullwidth: 100%;
 
 $color-primary: getcolor("primary");
 $color-secondary: getcolor("secondary");
 $color-tertiary: getcolor("tertiary");
 $color-quaternary: getcolor("quarternary");
-$color-quinary: getcolor("compliment");
+$color-quinary: getcolor("quinary");
 
 $color-accent: getcolor("accent");
 $color-highlight: getcolor("highlight");
 $color-compliment: getcolor("compliment");
-//$color-shade: getcolor("neutral1");
-//$color-shade-lighter: getcolor("neutral2");
+$color-shade: getcolor("neutral1");
+$color-shade-lighter: getcolor("neutral2");
 
 // defining generic variables
 $color-background: getcolor("background");
 $color-background-invert: getcolor("foreground");
-$color-text: rgba(getcolor("quaternary"), 0.8);// achieve #546856
-$color-text-invert: getcolor("neutral4"); // #666666
+$color-text: getcolor("foreground");
+$color-text-invert: getcolor("background");
 $color-text-heading: getcolor("accent");
 
 // defining links
-$color-nav-primary-link: getcolor("primary");
-$color-nav-primary-link-hover: getcolor("compliment");
-$color-nav-primary-link-visited: getcolor("primary");
-$color-nav-secondary-link: getcolor("accent");
-$color-nav-secondary-link-hover: getcolor("accent");
-$color-nav-secondary-link-visited: getcolor("accent");
-$color-text-link: $color-text;
-$color-text-link-visited: $color-text;
+$color-nav-primary-link: getcolor("foreground");
+$color-nav-primary-link-hover: getcolor("foreground");
+$color-nav-primary-link-visited: getcolor("foreground");
+$color-nav-secondary-link: getcolor("neutral1");
+$color-nav-secondary-link-hover: getcolor("neutral1");
+$color-nav-secondary-link-visited: getcolor("neutral1");
+$color-text-link: getcolor("neutral2");
+$color-text-link-visited: getcolor("neutral1");
 $color-text-link-hover: getcolor("neutral2");
 
 // borders and shadows
-$color-shade: getcolor("neutral10");
-$color-shade-lighter: getcolor("neutral9");
-$color-border: getcolor("neutral9");
-$color-shadow: getcolor("neutral10");
+$color-shade: getcolor("neutral1");
+$color-shade-lighter: getcolor("neutral2");
+$color-border: getcolor("neutral2");
+$color-shadow: lighten(getcolor("neutral2"), 20%);
 
 // detailed color options: new variables to be added...
-$color-header: getcolor("secondary");
-$color-main: getcolor("primary");
-$color-footer: getcolor("secondary");
+$color-header: getcolor("background");
+$color-footer: getcolor("background");
+
 
 // GENERIC OTHER STYLES
 // font family
-$font-family-title: Arial, Helvetica, sans-serif;
+$font-family-title: "Colossalis", Impact, sans-serif;
 $font-lineheight-title: 1.4em;
-$font-family-body: Arial, Helvetica, sans-serif;
+$font-family-body: "Arial", sans-serif;
 $font-lineheight-body: 1.4rem;
-$letter-spacing: 0;
+$letter-spacing: 2px;
 
 // font weights
 $font-weight-thin: 100;

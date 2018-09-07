@@ -9,6 +9,7 @@ $brand: (
   "black": #000,
 );
 
+// text: 546856
 // light & dark palettes
 $palette: (
   light: (
@@ -24,15 +25,16 @@ $palette: (
     "background": rgba(map-get($brand, "black"), 0.4),
     "foreground": map-get($brand, "white"),
 
-    "neutral1": rgba(map-get($brand, "black"), 1),
+    "neutral1": map-get($brand, "black"),
     "neutral2": rgba(map-get($brand, "black"), 0.9),
     "neutral3": rgba(map-get($brand, "black"), 0.8),
     "neutral4": rgba(map-get($brand, "black"), 0.7),
     "neutral5": rgba(map-get($brand, "black"), 0.6),
-    "neutral6": rgba(map-get($brand, "black"), 0.4),
-    "neutral7": rgba(map-get($brand, "black"), 0.3),
-    "neutral8": rgba(map-get($brand, "black"), 0.2),
-    "neutral9": rgba(map-get($brand, "black"), 0.1),
+    "neutral6": rgba(map-get($brand, "black"), 0.5),
+    "neutral7": rgba(map-get($brand, "black"), 0.4),
+    "neutral8": rgba(map-get($brand, "black"), 0.3),
+    "neutral9": rgba(map-get($brand, "black"), 0.2),
+    "neutral10": rgba(map-get($brand, "black"), 0.1),
   ),
   dark: (),
 );
