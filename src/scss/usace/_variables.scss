@@ -13,8 +13,8 @@ $color-quinary: getcolor("compliment");
 $color-accent: getcolor("accent");
 $color-highlight: getcolor("highlight");
 $color-compliment: getcolor("compliment");
-$color-shade: getcolor("neutral10");
-$color-shade-lighter: getcolor("neutral9");
+$color-shade: getcolor("neutral9");
+$color-shade-lighter: getcolor("neutral10");
 
 // defining generic variables
 $color-background: getcolor("background");
@@ -27,9 +27,9 @@ $color-text-heading: getcolor("accent");
 $color-nav-primary-link: rgba(getcolor("primary"), 0.8);
 $color-nav-primary-link-hover: rgba(getcolor("primary"), 1);
 $color-nav-primary-link-visited: rgba(getcolor("primary"), 0.8);
-$color-nav-secondary-link: getcolor("accent");
+$color-nav-secondary-link: getcolor("compliment");
 $color-nav-secondary-link-hover: getcolor("accent");
-$color-nav-secondary-link-visited: getcolor("accent");
+$color-nav-secondary-link-visited: getcolor("compliment");
 $color-text-link: $color-text;
 $color-text-link-visited: $color-text;
 $color-text-link-hover: getcolor("neutral2");
