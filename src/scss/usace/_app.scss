@@ -36,7 +36,6 @@ h5 {
   letter-spacing: $letter-spacing;
   color: $color-text-heading;
   margin: $margin-base * 5 0 $margin-base * 3;
-  text-transform: uppercase;
   padding: 0;
 }
 
@@ -247,7 +246,7 @@ a {
   transform: translate3d(0, 0, 0);
   transition: all 250ms $ease-out;
   background-color: $color-header;
-  color: $color-text;
+  color: $color-nav-primary-link;
   z-index: 99999;
 
   &.sticky {
@@ -357,27 +356,33 @@ nav {
     }
   }
 
+  h1,
+  h5 {
+    text-shadow: 0 0 1px $color-banner-text-shadow;
+  }
+
   h5 {
     display: inline-block;
     width: auto;
     margin-bottom: 0;
     padding-bottom: 10px;
-    color: $color-text;
-    border-bottom: 1px solid rgba($color-accent, 1);
+    border-bottom: 1px solid rgba($color-primary, 0.5);
+    color: $color-primary;
   }
 
   h1 {
     margin-bottom: 0;
     padding-bottom: 0;
-    color: $color-text;
+    color: $color-primary;
   }
 
   p {
+    width: 400px;
     font-size: 13px;
     line-height: 1.4em;
     padding: 0;
     margin: 0 0 $margin-base * 3;
-    width: 400px;
+    color: $color-primary;
   }
 
   a {

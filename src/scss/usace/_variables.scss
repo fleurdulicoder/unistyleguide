@@ -19,14 +19,14 @@ $color-shade-lighter: getcolor("neutral9");
 // defining generic variables
 $color-background: getcolor("background");
 $color-background-invert: getcolor("foreground");
-$color-text: rgba(getcolor("quaternary"), 0.8);// achieve #546856
-$color-text-invert: getcolor("neutral4"); // #666666
+$color-text: rgba(getcolor("quaternary"), 0.8);
+$color-text-invert: getcolor("neutral4");
 $color-text-heading: getcolor("accent");
 
 // defining links
-$color-nav-primary-link: getcolor("primary");
-$color-nav-primary-link-hover: getcolor("compliment");
-$color-nav-primary-link-visited: getcolor("primary");
+$color-nav-primary-link: rgba(getcolor("primary"), 0.8);
+$color-nav-primary-link-hover: rgba(getcolor("primary"), 1);
+$color-nav-primary-link-visited: rgba(getcolor("primary"), 0.8);
 $color-nav-secondary-link: getcolor("accent");
 $color-nav-secondary-link-hover: getcolor("accent");
 $color-nav-secondary-link-visited: getcolor("accent");
@@ -39,7 +39,7 @@ $color-border: getcolor("neutral9");
 $color-shadow: getcolor("neutral10");
 
 // detailed color options: new variables to be added...
-$color-header: getcolor("accent");
+$color-header: getcolor("tertiary");
 $color-main: getcolor("primary");
 $color-footer: getcolor("secondary");
 
@@ -98,4 +98,5 @@ $breaking-point-large: 900px;
 // logo
 $logo: "usace-logo.png";
 $banner: "usace-banner.jpg";
-$color-banner-overlay: rgba($color-primary, 0.5);
+$color-banner-overlay: getcolor("neutral8");
+$color-banner-text-shadow: getcolor("neutral7");
