@@ -1,0 +1,178 @@
+html								{ height:100%;}
+Body, .Normal, .NormalTextBox, td, p, .Normal, .NormalDisabled, .NormalBold{ font-family: Arial, Helvetica, sans-serif;line-height:1.4em; font-size:12px; color:#222;}
+p									{ padding:5px 0;margin:0px}
+li,ul li							{ list-style:disc }
+ol li								{ list-style:decimal}
+.Head								{ color:#517768;font:bold 1.2em Arial, Helvetica, sans-serif}
+.SubHead							{ color:#666;font-size:14px;font-weight:normal;}
+A.CommandButton:link,A.CommandButton:visited,
+A.CommandButton:active				{ font:bold small Arial, Helvetica, sans-serif;color:#517768}
+A.CommandButton:hover				{ color:#517768}
+h1,h2,h3,h4,h5,h6						{ font-weight:bold;line-height:1em; margin:0px; padding:5px 0;}
+h1,h2,h3								{ font-family: Arial, Helvetica, sans-serif;color:#546856;}
+.h1									{ font-size:26px; font-weight:bold;line-height:1em; margin:0px; padding:5px 0; font-family: Arial, Helvetica, sans-serif;color:#546856; }
+h3									{ font-size:19px;}
+h2									{ font-size:22px;}
+h1									{ font-size:26px;}
+a:link,a:active,a:visited			{ border:0;text-decoration:none;outline:none; color:#517768}
+a:hover 							{ color:#333;text-decoration: underline}
+
+/*Skin Layout Design*/
+
+#DNN6								{ width:100%;position:relative;z-index:1;min-height:100%;background:url(images/body.png) center center no-repeat}
+#Body								{ background:url(images/body.jpg) center center repeat-x #828387;}
+.skinwidth							{ width:1000px; margin:0 auto; padding:20px 0 20px 0; background:#fff; height:100%;}
+.dnnheader							{ height:170px; margin:0 22px 0 20px; position:relative; z-index:1000}
+.dnnheader .logo					{ position:absolute; left:22px; top:72px; z-index:903}
+.dnnheader .topmenu					{ background:url(images/menu.gif) 0 0 repeat-x;}
+.dnnheader .headerbox				{ background:url(images/header.jpg) 0 0 repeat-x; min-height:126px;}
+.dnnheader .headerbox .emptycontainer{ overflow:hidden}
+.dnnheader .loginlink				{ position:absolute; right:20px; top:10px; z-index:1001;}
+.dnnheader .searchcontainer			{ position:absolute; width:230px; height:30px;right:0px; top:93px; background:url(images/search.png) 0 0 no-repeat; z-index:903}
+.dnnheader .OfficePane				{ position:absolute; right:34px; top:45px; width:380px; z-index:904; text-align:right}
+.dnnheader .OfficePane h1			{ color:#36614e; font-weight:normal; font-size:24px}
+.dnnheader .homeicon				{ position:absolute; left:147px; top:142px; z-index:1001}
+
+.searchbox							{ position:relative;z-index:200;width:230px;float:right; height:30px}
+.searchbox input	{ position:absolute;left:25px;top:5px;z-index:2000;width:140px;background:transparent;border:none;height:20px;line-height:20px;padding-left:7px;font-size:11px; color:#849b8b; font-family:Arial, Helvetica, sans-serif}
+.searchbox a:link,
+.searchbox a:active,
+.searchbox a:visited,.searchbox a:hover	{ display:block;width:25px;height:20px;position:absolute;right:32px;top:5px;z-index:2000;text-decoration:none;}
+
+.visuallyhidden {border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute;  width: 1px;}
+
+.breaderbox							{ margin:0 22px 0 20px; height:30px; line-height:30px; text-transform:uppercase; color:#6f8779; font-weight:normal; font-size:10px;}
+.breaderbox a						{ color:#6f8779; text-decoration:underline;}
+.breaderbox a:hover					{ text-decoration:none; color:#386350;}
+
+.dnncontent							{ min-height:800px; margin:0 22px 0 20px; padding-top:13px;}
+
+.dnnfooter							{ height:166px; background:url(images/footer.jpg) 0 0 repeat-x; margin:0 22px 0 20px; position:relative; z-index:903;}
+.dnnfooter .copyright				{ position:absolute; left:20px; top:35px; z-index:501;}
+.dnnfooter .sitelinks				{ position:absolute; right:20px; top:76px; z-index:501; width:320px;}
+
+.dnnfooter .social					{ position:absolute; right:15px; top:8px; z-index:501;}
+.dnnfooter .social img				{ margin:0 2px;}
+.sitelinks a						{ font-size:11px; color:#27543f; display:block; line-height:20px;}
+.sitelinks .cola					{ float:left; width:40%;}
+.sitelinks .colb					{ float:left; width:29%;}
+.sitelinks .colc					{ float:right; width:27%}
+
+/*Common style*/
+
+.fleft								{ float:left}
+.fright								{ float:right}
+.clr								{ clear:both}
+a.border							{ border:1px #bfcbc3 solid; padding:5px; display:block}
+a.border:hover						{ border:1px #9db1ab solid;}
+.mr10								{ margin-right:10px}
+.ml15								{ margin-left:15px}
+.font16								{ font-size:16px}
+.font19								{ font-size:19px}
+.font22								{ font-size:22px}
+.font24								{ font-size:24px}
+.font26								{ font-size:26px}
+.font40								{ font-size:40px}
+.font48								{ font-size:48px}
+
+/********************Content Pane Design**********************************************/
+
+#contentWrapper             { width:632px; float:left; height:100%; padding-bottom:20px;}
+
+.RightPane							    { width:306px; padding-left:18px; float:right;}
+.MainLeftPane						    { width:306px; padding-top:13px;}
+.MainRightPane						  { width:306px; padding-top:13px;}
+.bottomPane							    { clear:both}
+
+.InnerMainLeftPane          { width:48%; padding-top:13px;}
+.InnerMainRightPane				  { width:48%; padding-top:13px;}
+.InnerLeftPane						  { width:260px; padding-right:20px}
+.InnerRightPane						  { width:260px; padding-left:20px}
+
+.BottomPane							    { clear:both}
+.DNNEmptyPane						    { width:0px;padding:0px;margin:0px}
+
+#contentWrapper3Col         { width:308px; float:left; height:100%; padding-bottom:20px;}
+
+.RightPane3Col							{ width:306px; padding-left:18px; float:right;height:100%; padding-bottom:20px;}
+.LeftPane3Col               { width:306px; padding-right:18px; float:left;height:100%; padding-bottom:20px;}
+
+#contentWrapper2Col         { width:460px; float:left; height:100%; padding-bottom:20px;}
+
+.LeftPane2Col               { width:460px; padding-right:18px; float:left;height:100%; padding-bottom:20px;}
+
+#contentWrapper1Col         { width:920px; float:left; height:100%; padding-bottom:20px;}
+
+
+.BottomPane3Col							{ clear:both}
+.DNNEmptyPane3Col						{ width:0px;padding:0px;margin:0px}
+
+
+/*Accordion Menu */
+div.treeContainer                   { font:14px Hevetica, Arial, Sans-Serif; }
+div.treeContainer div.rootTree div.rootNode, div.treeContainer div.rootTree div.childNode { line-height:37px; overflow:hidden; }
+div.treeContainer div.rootTree div.rootNode { border-bottom:1px solid #E8EEEA; }
+div.treeContainer div.rootTree div.rootNode:hover { background:#EFF1EE; }
+div.treeContainer div.rootTree li   { margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; list-style:none; *margin-left:-15px; }
+div.treeContainer div.rootTree li a { color:#386352; text-decoration:none;*display:inline-block; }
+div.treeContainer div.rootTree li a:hover { color:#ACBEB0; }
+div.treeContainer div.rootTree div.rootNode > div.item li a { font-size:16px; }
+div.treeContainer div.rootTree div.toggle { width:0px; height:0px; background:url('images/accordianToggle.png') 0px 0px;  margin-top:0px; }
+div.treeContainer div.rootTree div.minimized { background-position:-30px 0px !important; cursor:pointer; }
+div.treeContainer div.rootTree div.maximized { background-position:-15px 0px !important; cursor:pointer; }
+div.treeContainer div.rootTree div.item { margin-left:0px; }
+div.rootTree > div.rootNode > div.item { line-height:20px; }
+div.rootTree > div.rootNode div.childNode > div.item { line-height:20px; }
+div.treeContainer div.rootTree div.clearFloat { width:0px; height:0px; line-height:0px; clear:both; }
+div.treeContainer div.rootTree div.childRoot { margin-left:10px; display:none; }
+div.treeContainer div.rootTree li a.nolink { cursor:default; }
+div.treeContainerEdit div.childNode, div.treeContainerEdit div.rootNode { cursor:move; }
+div.treeContainer div.rootTree div.rootNode {padding:10px 10px 10px 15px;  }
+div.treeContainer div.rootTree div.childNode {padding:5px 10px 5px 15px; }
+
+/*photo Style*/
+.photoc								{ text-align:center}
+.photoc .thumimage					{ overflow:hidden; padding-top:2px}
+.photoc .navlink					{ text-align:right; padding-top:5px; margin-bottom:-5px}
+
+/*video Style*/
+.videoc								{ margin:0 0 0 10px; padding-top:5px; max-width: 280px;}
+.videoc .vitem						{ font-size:12px; line-height:1.3em; padding-top:10px; padding-right:10px; color:#546856;}
+.videoc .vitem strong				{ display:block; text-transform:uppercase; padding-bottom:5px; color:#3b6554; font-weight:normal;}
+
+/*Hottopices*/
+.hottopics							{ margin:0 0 0 20px; padding:0px; list-style:none}
+.hottopics li						{ margin:0px; padding:0px; list-style:none}
+.hottopics li a						{ font-weight:bold; line-height:30px;}
+
+/*Publicnotices*/
+.publicnotices, .contenteditor		{ margin:0 15px}
+.publicnotices strong,.contenteditor strong{ display:block; padding-top:8px}
+
+/*Link image*/
+.linkimage,.slideshow				{ height:353px;}
+.linkimage p						{ padding:0 0 13px 0}
+
+/*News Style*/
+.newsbox							{ height:311px}
+.newsbox *							{ margin:0px; padding:0px; list-style:none}
+.newsbox .tabitem					{ height:34px; width:294px; margin:-4px}
+.newsbox .tabitem li				{ float:left; width:147px; background:url(images/tab.gif) 0 -40px no-repeat; height:34px; line-height:34px; text-align:center;}
+.newsbox .tabitem li.current		{ background:url(images/tab.gif) 0 0 no-repeat;}
+.newsbox .tabitem li a 				{ text-transform:uppercase; font-weight:bold; font-size:16px; text-decoration:none;}
+.newsbox strong						{ padding-top:8px; display:block}
+.newsbox .contentbox				{ margin:0 6px}
+
+/*Contact Item List */
+.contactlistitem                    { padding:2px 10px; border-bottom:1px #e8eeea solid;}
+.contactlistitem-section            { text-align:left;font-weight:bold}
+.contactlistitem-number             { text-align:right;}
+
+
+/******************** User Manager *************************/
+
+
+table.UserManager                   {}
+table.UserManager th                {font-size:14px; color:red; border-bottom:2px solid #6678B1; text-align:left !important;}
+table.UserManager td                {font-size:12px; color:#666699; padding:4px; vertical-align:top;}
+table.UserManager tr:first-child th {text-align:left;}

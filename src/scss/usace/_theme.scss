@@ -1,0 +1,38 @@
+// brand configuration
+$brand: (
+  "white": #fff,
+  "pale-green": #eff1ee,
+  "light-green": #adbfb3,
+  "medium-green": #778c7f,
+  "dark-green": #376251,
+  "red": #d31f09,
+  "black": #000,
+);
+
+// light & dark palettes
+$palette: (
+  light: (
+    "primary": map-get($brand, "white"),
+    "secondary": map-get($brand, "pale-green"),
+    "tertiary": map-get($brand, "light-green"),
+    "quaternary": map-get($brand, "dark-green"),
+
+    "accent": map-get($brand, "dark-green"),
+    "highlight": map-get($brand, "red"),
+    "compliment": map-get($brand, "medium-green"),
+
+    "background": rgba(map-get($brand, "black"), 0.4),
+    "foreground": map-get($brand, "white"),
+
+    "neutral1": rgba(map-get($brand, "black"), 1),
+    "neutral2": rgba(map-get($brand, "black"), 0.9),
+    "neutral3": rgba(map-get($brand, "black"), 0.8),
+    "neutral4": rgba(map-get($brand, "black"), 0.7),
+    "neutral5": rgba(map-get($brand, "black"), 0.6),
+    "neutral6": rgba(map-get($brand, "black"), 0.4),
+    "neutral7": rgba(map-get($brand, "black"), 0.3),
+    "neutral8": rgba(map-get($brand, "black"), 0.2),
+    "neutral9": rgba(map-get($brand, "black"), 0.1),
+  ),
+  dark: (),
+);
