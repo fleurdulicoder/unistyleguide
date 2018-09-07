@@ -13,8 +13,8 @@ $color-quinary: getcolor("compliment");
 $color-accent: getcolor("accent");
 $color-highlight: getcolor("highlight");
 $color-compliment: getcolor("compliment");
-//$color-shade: getcolor("neutral1");
-//$color-shade-lighter: getcolor("neutral2");
+$color-shade: getcolor("neutral10");
+$color-shade-lighter: getcolor("neutral9");
 
 // defining generic variables
 $color-background: getcolor("background");
@@ -35,13 +35,11 @@ $color-text-link-visited: $color-text;
 $color-text-link-hover: getcolor("neutral2");
 
 // borders and shadows
-$color-shade: getcolor("neutral10");
-$color-shade-lighter: getcolor("neutral9");
 $color-border: getcolor("neutral9");
 $color-shadow: getcolor("neutral10");
 
 // detailed color options: new variables to be added...
-$color-header: getcolor("secondary");
+$color-header: getcolor("accent");
 $color-main: getcolor("primary");
 $color-footer: getcolor("secondary");
 
@@ -96,3 +94,8 @@ $ease-in: cubic-bezier(0, 0, 0, 1.1);
 
 // media
 $breaking-point-large: 900px;
+
+// logo
+$logo: "usace-logo.png";
+$banner: "usace-banner.jpg";
+$color-banner-overlay: rgba($color-primary, 0.5);

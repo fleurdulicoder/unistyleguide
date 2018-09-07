@@ -22,7 +22,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   &::after {
-    content: url("../img/logo.png"), url("../img/banner.jpg");
+    content: url("../img/#{$logo}"), url("../img/#{$banner}");
   }
 }
 
@@ -223,7 +223,7 @@ a {
 }
 
 .logo {
-  background: transparent url("../img/logo.png") no-repeat center center;
+  background: transparent url("../img/#{$logo}") no-repeat left center;
   background-size: contain;
   border: 0;
   cursor: pointer;
@@ -246,13 +246,13 @@ a {
   box-sizing: border-box;
   transform: translate3d(0, 0, 0);
   transition: all 250ms $ease-out;
-  background-color: rgba($color-background, 0.3);
+  background-color: rgba($color-header, 0.3);
   color: $color-text;
   z-index: 99999;
 
   &.sticky {
     height: 70px;
-    background-color: rgba($color-background, 1);
+    background-color: rgba($color-header, 1);
 
     .logo {
       transform: scale(0.75);
@@ -274,7 +274,7 @@ a {
   .logo {
     text-align: left;
     width: 300px;
-    height: inherit;
+    height: 70%;
     transform-origin: left center;
     transform: translate3d(0, 0, 0);
     transition: all 250ms $ease-out;
@@ -337,7 +337,7 @@ nav {
 
   .overlay {
     opacity: 1;
-    background-color: rgba($color-background, .5);
+    background-color: rgba($color-banner-overlay, .5);
     z-index: 4;
   }
 
@@ -347,7 +347,7 @@ nav {
     background-size: cover;
     box-sizing: border-box;
     transform: translateZ(0, 0, 0);
-    background-image: url("../img/banner.jpg");
+    background-image: url("../img/#{$banner}");
     z-index: 3;
 
     @media screen and (max-width: $breaking-point-large) {
