@@ -229,17 +229,17 @@ a {
 }
 
 .app {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  position: relative;
+  width: $theme-fullwidth;
+  height: auto;
+  margin: 0 auto;
   min-height: 100%;
 }
 
 .nav-bar {
   position: fixed;
-  width: 100%;
+  top: 0;
+  width: $theme-fullwidth;
   height: $navbar-height;
   padding: 0 34px 0 50px;
   box-sizing: border-box;
@@ -323,8 +323,8 @@ nav {
 
 .banner {
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 
   &.short {
     height: 500px;
