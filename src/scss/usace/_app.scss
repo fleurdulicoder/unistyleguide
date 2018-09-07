@@ -246,7 +246,7 @@ a {
   box-sizing: border-box;
   transform: translate3d(0, 0, 0);
   transition: all 250ms $ease-out;
-  background-color: rgba($color-header, 0.3);
+  background-color: $color-header;
   color: $color-text;
   z-index: 99999;
 
