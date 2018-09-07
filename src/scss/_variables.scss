@@ -1,0 +1,98 @@
+// THEME & BRAND
+// @COLOR THEME CONFIGURATION
+// configuring application variables
+$theme: "dark";
+$theme-fullwidth: 100%;
+
+$color-primary: getcolor("primary");
+$color-secondary: getcolor("secondary");
+$color-tertiary: getcolor("tertiary");
+$color-quaternary: getcolor("quarternary");
+$color-quinary: getcolor("quinary");
+
+$color-accent: getcolor("accent");
+$color-highlight: getcolor("highlight");
+$color-compliment: getcolor("compliment");
+$color-shade: getcolor("neutral1");
+$color-shade-lighter: getcolor("neutral2");
+
+// defining generic variables
+$color-background: getcolor("background");
+$color-background-invert: getcolor("foreground");
+$color-text: getcolor("foreground");
+$color-text-invert: getcolor("background");
+$color-text-heading: getcolor("accent");
+
+// defining links
+$color-nav-primary-link: getcolor("foreground");
+$color-nav-primary-link-hover: getcolor("foreground");
+$color-nav-primary-link-visited: getcolor("foreground");
+$color-nav-secondary-link: getcolor("neutral1");
+$color-nav-secondary-link-hover: getcolor("neutral1");
+$color-nav-secondary-link-visited: getcolor("neutral1");
+$color-text-link: getcolor("neutral2");
+$color-text-link-visited: getcolor("neutral1");
+$color-text-link-hover: getcolor("neutral2");
+
+// borders and shadows
+$color-shade: getcolor("neutral1");
+$color-shade-lighter: getcolor("neutral2");
+$color-border: getcolor("neutral2");
+$color-shadow: lighten(getcolor("neutral2"), 20%);
+
+// detailed color options: new variables to be added...
+$color-header: getcolor("background");
+$color-footer: getcolor("background");
+
+
+// GENERIC OTHER STYLES
+// font family
+$font-family-title: "Colossalis", Impact, sans-serif;
+$font-lineheight-title: 1.4em;
+$font-family-body: "Arial", sans-serif;
+$font-lineheight-body: 1.4rem;
+$letter-spacing: 2px;
+
+// font weights
+$font-weight-thin: 100;
+$font-weight-normal: 300;
+$font-weight-bold: 400;
+$font-weight-bolder: 500;
+
+// font sizes
+$font-size-h1: 60px; // 4.3rem - 80pt;
+$font-size-h2: 48px; // 3.4rem - 48pt;
+$font-size-h3: 36px; // 2.6rem - 36pt;
+$font-size-h4: 30px; // 2.14rem - 30pt;
+$font-size-h5: 16px; // 1.6rem - 18pt;
+$font-size-h6: 13px; // 0.875rem - 14pt; confirm??
+$font-size-lead: 16px; // 1.125rem - 18pt;
+$font-size-body: 14px; // 1rem - 16pt;
+
+// font sizes plus
+$font-size-small: 0.85rem;
+$font-size-normal: $font-size-body;
+$font-size-large: 15px;
+$font-size-x-large: 16px;
+$font-size-xx-large: 18px;
+$font-size-xxx-large: 20px;
+
+// row
+$row-vertical-padding: 70px;
+$row-horizontal-padding: 120px;
+$mobile-row-vertical-padding: 36px;
+$mobile-row-horizontal-padding: 36px;
+
+// padding
+$padding-base: 3px;
+$margin-base: 4px;
+
+// navigation
+$navbar-height: 120px;
+
+// custom easing functions
+$ease-out: cubic-bezier(.41, .91, .52, .94);
+$ease-in: cubic-bezier(0, 0, 0, 1.1);
+
+// media
+$breaking-point-large: 900px;
