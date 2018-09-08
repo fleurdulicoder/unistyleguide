@@ -736,6 +736,7 @@ h3 + .list-of-colors {
   content: "\F101";
   font-size: 24px;
   font-family: "Font Awesome 5 Free";
+  font-style: normal;
   font-weight: normal;
   position: absolute;
   top: 50%;

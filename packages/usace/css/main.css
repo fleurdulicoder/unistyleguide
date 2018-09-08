@@ -32,7 +32,7 @@ body {
 }
 
 body::after {
-  content: url(../img/usace-logo.png), url(../img/usace-banner.jpg);
+  pwdurl(../img/usace-logo.png), url(../img/usace-banner.jpg);
 }
 
 h1,
@@ -237,7 +237,7 @@ p {
       flex-wrap: nowrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-ls -laspace-between;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -781,7 +781,8 @@ h3 + .list-of-colors {
 .side-menu ul label.rotate::before {
   content: "\F101";
   font-size: 24px;
-  font-family: "Font Awesome Free 5";
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
   font-weight: normal;
   position: absolute;
   top: 50%;
