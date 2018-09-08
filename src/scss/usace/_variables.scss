@@ -7,29 +7,29 @@ $theme-fullwidth: 80%;
 $color-primary: getcolor("primary");
 $color-secondary: getcolor("secondary");
 $color-tertiary: getcolor("tertiary");
-$color-quaternary: getcolor("quaternary");
+$color-quaternary: getcolor("quarternary");
 $color-quinary: getcolor("compliment");
 
 $color-accent: getcolor("accent");
 $color-highlight: getcolor("highlight");
 $color-compliment: getcolor("compliment");
-$color-shade: getcolor("neutral10");
-$color-shade-lighter: getcolor("neutral9");
+$color-shade: getcolor("neutral9");
+$color-shade-lighter: getcolor("neutral10");
 
 // defining generic variables
 $color-background: getcolor("background");
 $color-background-invert: getcolor("foreground");
-$color-text: rgba(getcolor("quaternary"), 0.8);// achieve #546856
-$color-text-invert: getcolor("neutral4"); // #666666
+$color-text: rgba(getcolor("quaternary"), 0.8);
+$color-text-invert: getcolor("neutral4");
 $color-text-heading: getcolor("accent");
 
 // defining links
-$color-nav-primary-link: getcolor("primary");
-$color-nav-primary-link-hover: getcolor("compliment");
-$color-nav-primary-link-visited: getcolor("primary");
-$color-nav-secondary-link: getcolor("accent");
+$color-nav-primary-link: rgba(getcolor("primary"), 0.8);
+$color-nav-primary-link-hover: rgba(getcolor("primary"), 1);
+$color-nav-primary-link-visited: rgba(getcolor("primary"), 0.8);
+$color-nav-secondary-link: getcolor("compliment");
 $color-nav-secondary-link-hover: getcolor("accent");
-$color-nav-secondary-link-visited: getcolor("accent");
+$color-nav-secondary-link-visited: getcolor("compliment");
 $color-text-link: $color-text;
 $color-text-link-visited: $color-text;
 $color-text-link-hover: getcolor("neutral2");
@@ -39,7 +39,7 @@ $color-border: getcolor("neutral9");
 $color-shadow: getcolor("neutral10");
 
 // detailed color options: new variables to be added...
-$color-header: getcolor("secondary");
+$color-header: getcolor("tertiary");
 $color-main: getcolor("primary");
 $color-footer: getcolor("secondary");
 
