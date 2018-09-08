@@ -137,6 +137,46 @@ p {
   &.shade-lighter {
     background-color: $color-shade-lighter;
   }
+
+  &.black-10 {
+    background-color: $color-black-10;
+  }
+
+  &.black-20 {
+    background-color: $color-black-20;
+  }
+
+  &.black-30 {
+    background-color: $color-black-30;
+  }
+
+  &.black-40 {
+    background-color: $color-black-40;
+  }
+
+  &.black-50 {
+    background-color: $color-black-50;
+  }
+
+  &.black-60 {
+    background-color: $color-black-60;
+  }
+
+  &.black-70 {
+    background-color: $color-black-70;
+  }
+
+  &.black-80 {
+    background-color: $color-black-80;
+  }
+
+  &.black-90 {
+    $color-black-90;
+  }
+
+  &.black {
+    background-color: $color-black;
+  }
 }
 
 .border {

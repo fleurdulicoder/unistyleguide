@@ -13,7 +13,7 @@ $color-quinary: getcolor("compliment");
 $color-accent: getcolor("accent");
 $color-highlight: getcolor("highlight");
 $color-compliment: getcolor("compliment");
-$color-shade: getcolor("neutral9");
+$color-shade: getcolor("neutral20");
 $color-shade-lighter: getcolor("neutral10");
 
 // defining generic variables
@@ -35,7 +35,17 @@ $color-text-link-visited: $color-text;
 $color-text-link-hover: getcolor("neutral2");
 
 // borders and shadows
-$color-border: getcolor("neutral9");
+$color-black-100: getcolor("neutral100");
+$color-black-90: getcolor("neutral90");
+$color-black-80: getcolor("neutral80");
+$color-black-70: getcolor("neutral70");
+$color-black-60: getcolor("neutral60");
+$color-black-50: getcolor("neutral50");
+$color-black-40: getcolor("neutral40");
+$color-black-30: getcolor("neutral30");
+$color-black-20: getcolor("neutral20");
+$color-black-10: getcolor("neutral10");
+$color-border: getcolor("neutral20");
 $color-shadow: getcolor("neutral10");
 
 // detailed color options: new variables to be added...
