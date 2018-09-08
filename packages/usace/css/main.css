@@ -209,19 +209,19 @@ p {
 }
 
 .txt.large {
-  font-size: 15px;
-}
-
-.txt.x-large {
   font-size: 16px;
 }
 
-.txt.xx-large {
+.txt.x-large {
   font-size: 18px;
 }
 
-.txt.xxx-large {
+.txt.xx-large {
   font-size: 20px;
+}
+
+.txt.xxx-large {
+  font-size: 24px;
 }
 
 .flex {
