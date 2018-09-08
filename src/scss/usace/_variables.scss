@@ -19,8 +19,8 @@ $color-shade-lighter: getcolor("neutral10");
 // defining generic variables
 $color-background: getcolor("background");
 $color-background-invert: getcolor("foreground");
-$color-text: rgba(getcolor("quaternary"), 0.8);
-$color-text-invert: getcolor("neutral4");
+$color-text: getcolor("primary");
+$color-text-invert: getcolor("neutral40");
 $color-text-heading: getcolor("accent");
 
 // defining links
@@ -35,7 +35,7 @@ $color-text-link-visited: $color-text;
 $color-text-link-hover: getcolor("neutral2");
 
 // borders and shadows
-$color-black-100: getcolor("neutral100");
+$color-black: getcolor("neutral100");
 $color-black-90: getcolor("neutral90");
 $color-black-80: getcolor("neutral80");
 $color-black-70: getcolor("neutral70");
@@ -108,5 +108,5 @@ $breaking-point-large: 900px;
 // logo
 $logo: "usace-logo.png";
 $banner: "usace-banner.jpg";
-$color-banner-overlay: getcolor("neutral9");
-$color-banner-text-shadow: getcolor("neutral7");
+$color-banner-overlay: $color-black-50;
+$color-banner-text-shadow: $color-black-50;
