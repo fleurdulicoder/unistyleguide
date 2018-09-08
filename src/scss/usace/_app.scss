@@ -112,13 +112,22 @@ p {
     background-color: $color-tertiary;
   }
 
-  &.quaternary {
+  &.quaternary,
+  &.accent {
     background-color: $color-quaternary;
   }
 
   &.quinary,
   &.foreground {
     background-color: $color-quinary;
+  }
+
+  &.compliment {
+    background-color: $color-compliment;
+  }
+
+  &.highlight {
+    background-color: $color-highlight;
   }
 
   &.shade {
