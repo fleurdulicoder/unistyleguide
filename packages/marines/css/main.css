@@ -733,15 +733,16 @@ h3 + .list-of-colors {
 }
 
 .side-menu ul label.rotate::before {
+  content: "\F101";
+  font-size: 24px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: normal;
   position: absolute;
   top: 50%;
   margin-top: -13px;
   left: -24px;
   width: 24px;
   bottom: 0;
-  content: "\F101";
-  font-size: 24px;
-  font-family: FontAwesome;
 }
 
 .side-menu ul ul {

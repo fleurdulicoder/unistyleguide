@@ -101,6 +101,7 @@ p {
   font-size: 14px;
 }
 
+
 .bg.primary,
 .bg.background {
   background-color: #fff;
@@ -133,55 +134,55 @@ p {
 }
 
 .bg.shade {
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(3, 0, 0, .2);
 }
 
 .bg.shade-lighter {
-  background-color: rgba(0, 0, 0, .1);
+  background-color: rgba(3, 0, 0, .1);
 }
 
 .bg.black-10 {
-  background-color: rgba(0, 0, 0, .1);
+  background-color: rgba(3, 0, 0, .1);
 }
 
 .bg.black-20 {
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(3, 0, 0, .2);
 }
 
 .bg.black-30 {
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(3, 0, 0, .3);
 }
 
 .bg.black-40 {
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(3, 0, 0, .4);
 }
 
 .bg.black-50 {
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(3, 0, 0, .5);
 }
 
 .bg.black-60 {
-  background-color: rgba(0, 0, 0, .6);
+  background-color: rgba(3, 0, 0, .6);
 }
 
 .bg.black-70 {
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(3, 0, 0, .7);
 }
 
 .bg.black-80 {
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(3, 0, 0, .8);
 }
 
 .bg.black-90 {
-  background-color: rgba(0, 0, 0, .9);
+  background-color: rgba(3, 0, 0, .9);
 }
 
 .bg.black {
-  background-color: #000;
+  background-color: #030000;
 }
 
 .border {
-  border: 1px solid rgba(0, 0, 0, .1);
+  border: 1px solid rgba(3, 0, 0, .1);
 }
 
 .txt.primary {
@@ -201,11 +202,11 @@ p {
 }
 
 .txt.shade {
-  color: rgba(0, 0, 0, .2);
+  color: rgba(3, 0, 0, .2);
 }
 
 .txt.shade-lighter {
-  color: rgba(0, 0, 0, .1);
+  color: rgba(3, 0, 0, .1);
 }
 
 .txt.large {
@@ -778,15 +779,16 @@ h3 + .list-of-colors {
 }
 
 .side-menu ul label.rotate::before {
+  content: "\F101";
+  font-size: 24px;
+  font-family: "Font Awesome Free 5";
+  font-weight: normal;
   position: absolute;
   top: 50%;
   margin-top: -13px;
   left: -24px;
   width: 24px;
   bottom: 0;
-  content: "\F101";
-  font-size: 24px;
-  font-family: FontAwesome;
 }
 
 .side-menu ul ul {
