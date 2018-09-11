@@ -1,46 +1,29 @@
 // brand configuration
 $brand: (
   "black": #000,
-  "red": #940000,
-  "burgundy": #960000,
-  "gold": #84754e,
+  "navy": #003366,
+  "deep-navy": #002e56,
+  "silver": #666666,
   "white": #fff,
-  "silver": #818283,
-  "quick-silver": #a7a7a7,
+  "light-silver": #ccc,
 );
 
 // light & dark palettes
 $palette: (
-  light: (
-    "primary": lighten(map-get($brand, "black"), 50%),
-    "secondary": lighten(map-get($brand, "red"), 50%),
-    "tertiary": lighten(map-get($brand, "burgundy"), 50%),
-    "quarternary": lighten(map-get($brand, "gold"), 50%),
-    "quinary": lighten(map-get($brand, "white"), 50%),
-
-    "accent": lighten(map-get($brand, "red"), 50%),
-    "complimentary": lighten(map-get($brand, "burgundy"), 50%),
-    "highlight": lighten(map-get($brand, "gold"), 50%),
-    "background": lighten(map-get($brand, "black"), 50%),
-    "foreground": lighten(map-get($brand, "white"), 50%),
-
-    "neutral1": lighten(map-get($brand, "silver"), 50%),
-    "neutral2": lighten(map-get($brand, "quick-silver"), 50%),
-  ),
   dark: (
     "primary": map-get($brand, "black"),
-    "secondary": map-get($brand, "red"),
-    "tertiary": map-get($brand, "burgundy"),
-    "quarternary": map-get($brand, "gold"),
+    "secondary": map-get($brand, "navy"),
+    "tertiary": map-get($brand, "deep-navy"),
+    "quarternary": map-get($brand, "silver"),
     "quinary": map-get($brand, "white"),
 
-    "accent": map-get($brand, "red"),
-    "complimentary": map-get($brand, "burgundy"),
-    "highlight": map-get($brand, "gold"),
+    "accent": map-get($brand, "navy"),
+    "complimentary": map-get($brand, "deep-navy"),
+    "highlight": map-get($brand, "silver"),
     "background": map-get($brand, "black"),
     "foreground": map-get($brand, "white"),
 
     "neutral1": map-get($brand, "silver"),
-    "neutral2": map-get($brand, "quick-silver"),
+    "neutral2": map-get($brand, "light-silver"),
   ),
 );
