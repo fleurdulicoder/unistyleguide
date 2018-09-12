@@ -42,8 +42,7 @@ $color-shadow: lighten(getcolor("neutral2"), 20%);
 
 // detailed color options: new variables to be added...
 $color-header: getcolor("accent");
-$color-footer: getcolor("neutral2");
-
+$color-footer: getcolor("neutral3");
 
 // GENERIC OTHER STYLES
 // font family
@@ -51,7 +50,7 @@ $font-family-title: "OswaldRegular", "MS Trebuchet", "Arial", sans-serif;
 $font-lineheight-title: 1.4em;
 $font-family-body: "Arial", "Helvetica", sans-serif;
 $font-lineheight-body: 1.4rem;
-$letter-spacing: 2px;
+$letter-spacing: 0px;
 
 // font weights
 $font-weight-thin: 100;
@@ -98,6 +97,7 @@ $ease-in: cubic-bezier(0, 0, 0, 1.1);
 $breaking-point-large: 900px;
 
 // logo & banner files
-$logo: "navylogo.jpg";
+$logo: "navylogobluebg.png";
+$seal: "navyseal.png";
 $banner: "navybanner.jpg";
-$color-banner-overlay: rgba($color-background, 0.5);
+$color-banner-overlay: transparent;

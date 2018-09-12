@@ -20,9 +20,10 @@ body {
   color: $color-text;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 
   &::after {
-    content: url("../img/#{$logo}"), url("../img/#{$banner}");
+    content: url("../img/#{$logo}"), url("../img/#{$banner}"), url("../img/#{$seal}");
   }
 }
 
@@ -36,7 +37,6 @@ h5 {
   letter-spacing: $letter-spacing;
   color: $color-text-heading;
   margin: $margin-base * 5 0 $margin-base * 3;
-  text-transform: uppercase;
   padding: 0;
 }
 
@@ -248,7 +248,7 @@ a {
   box-sizing: border-box;
   transform: translate3d(0, 0, 0);
   transition: all 250ms $ease-out;
-  background-color: rgba($color-header, 0.3);
+  background-color: rgba($color-header, 0.8);
   color: $color-text;
   z-index: 99999;
 
@@ -375,8 +375,8 @@ nav {
   }
 
   p {
-    font-size: 13px;
-    line-height: 1.4em;
+    font-size: 16px;
+    line-height: 1.8em;
     padding: 0;
     margin: 0 0 $margin-base * 3;
     width: 400px;
@@ -508,7 +508,6 @@ section {
 footer {
   position: relative;
   background: $color-footer;
-  color: $color-text;
   padding: 0;
   margin: 0;
   z-index: 5;
@@ -529,14 +528,16 @@ footer {
     }
 
     .logo {
-      margin-top: 20px;
+      margin-top: 0px;
       background-position: left center;
-      height: 50px;
+      height: 120px;
+      background-image: url('../img/#{$seal}');
     }
 
     header {
       position: relative;
       font-family: $font-family-title;
+      color: $color-accent;
       letter-spacing: $letter-spacing;
       text-transform: uppercase;
     }
@@ -547,7 +548,7 @@ footer {
       width: 80%;
       bottom: 0;
       left: 0;
-      border-bottom: 1px solid rgba($color-accent, 1);
+      border-bottom: 1px solid rgba($color-shade-lighter, 1);
     }
 
     ul {

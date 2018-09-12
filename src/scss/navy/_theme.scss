@@ -6,6 +6,7 @@ $brand: (
   "silver": #666666,
   "white": #fff,
   "light-silver": #ccc,
+  "lighest-silver": #f7f7f7,
 );
 
 // light & dark palettes
@@ -25,5 +26,6 @@ $palette: (
 
     "neutral1": map-get($brand, "silver"),
     "neutral2": map-get($brand, "light-silver"),
+    "neutral3": map-get($brand, "lighest-silver"),
   ),
 );

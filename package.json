@@ -1,10 +1,9 @@
 {
   "name": "marinetemplate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "font-awesome": "^4.7.0",
     "gsap": "^2.0.2",
     "jquery": "^3.3.1",
     "modernizr": "^3.6.0",
@@ -29,7 +28,6 @@
     "html-webpack-plugin": "^3.2.0",
     "imagemin-gifsicle": "^5.2.0",
     "imagemin-webpack": "^3.0.0",
-    "jest": "^23.5.0",
     "mini-css-extract-plugin": "^0.4.1",
     "node-sass": "^4.9.2",
     "postcss-cssnext": "^3.1.0",
@@ -51,6 +49,6 @@
     "lint": "eslint **/*.js",
     "lint-fix": "eslint --fix **/*.js"
   },
-  "author": "Ella Musina",
+  "author": "Ella Musina, Omnitec Inc",
   "license": "ISC"
 }

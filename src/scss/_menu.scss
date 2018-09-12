@@ -58,7 +58,7 @@
     letter-spacing: $letter-spacing;
     text-transform: uppercase;
     padding: $padding-base * 3;
-    border-top: 1px solid $color-shade;
+    border-top: 1px solid $color-shade-lighter;
   }
 
   input[type=checkbox] {
@@ -72,7 +72,7 @@
     position: relative;
     display: block;
     padding: $padding-base * 2;
-    color: rgba($color-accent, 1);
+    color: $color-accent;
     text-decoration: none;
     font-size: 0.85rem;
   }
